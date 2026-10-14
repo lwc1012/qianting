@@ -1,0 +1,35 @@
+# Qt Creator 配置文件和文件夹 (必须忽略，否则换台电脑就报错)
+*.pro.user
+*.pro.user.*
+CMakeLists.txt.user
+.qtcreator/
+
+# 编译生成的文件夹 (不要备份这个)
+build/
+debug/
+release/
+.qtcreator/
+
+# 临时中间文件
+*.o
+*.obj
+moc_*
+ui_*
+qrc_*
+.qmake.stash
+CLAUDE.md
+
+# Whisper文件夹
+whisper-blas-bin-x64/
+
+# 录音文件保存的文件夹
+voiceRecord/
+
+# Database文件夹
+Database/
+
+# llama推理框架文件夹
+llama-bin/
+
+# 海水密度实验的原始下载数据 (55MB，可由 01_fetch_woa23.py 重新下载)
+experiments/seawater_density/data/raw/
